@@ -99,17 +99,4 @@ class AppImageProvider extends ChangeNotifier {
         .toList();
     notifyListeners();
   }
-
-  // _subscribe() {
-  //   realtimeSubscription = realtime
-  //       .subscribe(['collections.${Appconstants.collectionID}.documents']);
-  //   //listening to stream we can listen to
-  //   realtimeSubscription.stream.listen((e) {
-  //     if (e.payload.isNotEmpty) {
-  //       if (e.events == 'database.documents.files') {
-  //         docmodel!.map((element) => element.url = e.payload['url']).toList();
-  //       }
-  //     }
-  //   });
-  // }
 }
