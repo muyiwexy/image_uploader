@@ -25,7 +25,6 @@ class _HomepageState extends State<Homepage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  if (state.docmodel != null)
                     Expanded(
                       child: GridView.builder(
                         gridDelegate:
@@ -44,15 +43,13 @@ class _HomepageState extends State<Homepage> {
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
-                                        image: NetworkImage(
-                                            state.docmodel![index].url!)),
+                                        image: NetworkImage()),
                                   ),
                                 ),
                               ),
                             ],
                           );
                         },
-                        itemCount: state.docmodel!.length,
                       ),
                     ),
                   const SizedBox(
