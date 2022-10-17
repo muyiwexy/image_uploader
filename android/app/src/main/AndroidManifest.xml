@@ -26,14 +26,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="io.appwrite.views.CallbackActivity" android:exported="true">
-            <intent-filter android:label="android_web_auth">
-            <action android:name="android.intent.action.VIEW" />
-            <category android:name="android.intent.category.DEFAULT" />
-            <category android:name="android.intent.category.BROWSABLE" />
-            <data android:scheme="appwrite-callback-imageuploader" />
-            </intent-filter>
-        </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
