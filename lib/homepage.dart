@@ -1,7 +1,4 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:image_uploader/Authprovider/imageprovider.dart';
 import 'package:provider/provider.dart';
 
 class Homepage extends StatefulWidget {
